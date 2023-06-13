@@ -1,0 +1,101 @@
+/* Fuente principal */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #2b2a2a;
+  margin: 0;
+  background-color: rgb(182, 178, 178);
+}
+.encabezado {
+  background-color: #333;
+  color: aliceblue;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+#titulo {
+  font-size: 32px;
+  
+}
+.barraDeNavegacion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.barraDeNavegacion li {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.barraDeNavegacion a {
+  color: aliceblue;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  display: flex;
+}
+.barraDeNavegacion a:active,
+.barraDeNavegacion a:hover {
+  color: #f9c22e;
+}
+/* Estilos para la sección "contenedor" */
+.contenedor {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilos para la sección "destinos" */
+.destinos {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.destinos h2 {
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+}
+
+.lugaresTuristicos {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.lugaresTuristicos li {
+  flex-basis: 31%;
+  margin-bottom: 40px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.lugaresTuristicos img {
+  max-width: 100%;
+}
+
+.lugaresTuristicos h3 {
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+.lugaresTuristicos p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+/* Estilos para el footer */
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+

@@ -1,0 +1,101 @@
+/* Estilos generales */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}    
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1f1f1f;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 100%;
+    box-sizing: border-box;
+}
+main {
+    padding-bottom: 60px; /* Altura del footer */
+}
+
+h1, h2, h3 {
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Encabezado */
+.encabezado {
+    background-color: #333;
+    padding: 20px;
+}
+
+#titulo {
+    font-size: 28px;
+    margin: 0;
+}
+
+.barraDeNavegacion ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.barraDeNavegacion li {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Contenedor principal */
+.contenedor {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Destinos */
+.destinos {
+    background-color: #222;
+    padding: 20px;
+}
+
+.destinos h2 {
+    margin: 0;
+}
+
+.lugaresTuristicos {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.lugaresTuristicos li {
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 30%; /* Ancho de cada elemento, puedes ajustar este valor según tus necesidades */
+    padding: 10px;
+    text-align: left; /* Alineación del contenido del lugar turístico */
+}
+
+.lugaresTuristicos img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 1859px;
+}
